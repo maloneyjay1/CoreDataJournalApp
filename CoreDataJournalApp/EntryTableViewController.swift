@@ -14,10 +14,6 @@ class EntryTableViewController: UITableViewController {
         super.viewWillAppear(true)
         tableView.reloadData()
     }
-    
-    override func viewDidLoad() {
-        print("\(EntryController.sharedInstance.entries[3].text)")
-    }
 
     // MARK: - Table view data source
     
