@@ -38,12 +38,30 @@ class EntryController {
     }
     
     
+    func removeFromArrayNoSave(entry:Entry) {
+        Stack.sharedStack.managedObjectContext.deleteObject(entry)
+    }
+    
+    
     func saveToPersistentStorage() {
         do {
             try Stack.sharedStack.managedObjectContext.save()
             print("success")
         } catch {
             print("Object not saved.")
+        }
+    }
+    
+    
+    func loadFromPersistentStorage() -> [Entry] {
+        let fetchRequest = NSFetchRequest(entityName: "Entry")
+        
+        do {
+            let entries = try Stack.sharedStack.managedObjectContext.executeFetchRequest(fetchRequest) as! [Entry]
+            return entries
+        } catch {
+            print("Unable to load.")
+            return []
         }
     }
     

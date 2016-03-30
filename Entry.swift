@@ -10,7 +10,7 @@ import Foundation
 import CoreData
 
 
-class Entry: NSManagedObject {
+public class Entry: NSManagedObject {
 
     convenience init(title:String, text:String, timeStamp:NSDate = NSDate(), context:NSManagedObjectContext = Stack.sharedStack.managedObjectContext) {
         
