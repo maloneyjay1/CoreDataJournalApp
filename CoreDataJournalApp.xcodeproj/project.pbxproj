@@ -14,12 +14,12 @@
 		E68B26221CABE886005DA8AF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E68B26201CABE886005DA8AF /* LaunchScreen.storyboard */; };
 		E68B262D1CABE887005DA8AF /* CoreDataJournalAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E68B262C1CABE887005DA8AF /* CoreDataJournalAppTests.swift */; };
 		E68B26381CABE887005DA8AF /* CoreDataJournalAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E68B26371CABE887005DA8AF /* CoreDataJournalAppUITests.swift */; };
-		E68B264F1CAC0401005DA8AF /* Entity+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = E68B264D1CAC0401005DA8AF /* Entity+CoreDataProperties.swift */; };
-		E68B26501CAC0401005DA8AF /* Entity+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = E68B264D1CAC0401005DA8AF /* Entity+CoreDataProperties.swift */; };
-		E68B26511CAC0401005DA8AF /* Entity+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = E68B264D1CAC0401005DA8AF /* Entity+CoreDataProperties.swift */; };
-		E68B26521CAC0401005DA8AF /* Entity.swift in Sources */ = {isa = PBXBuildFile; fileRef = E68B264E1CAC0401005DA8AF /* Entity.swift */; };
-		E68B26531CAC0401005DA8AF /* Entity.swift in Sources */ = {isa = PBXBuildFile; fileRef = E68B264E1CAC0401005DA8AF /* Entity.swift */; };
-		E68B26541CAC0401005DA8AF /* Entity.swift in Sources */ = {isa = PBXBuildFile; fileRef = E68B264E1CAC0401005DA8AF /* Entity.swift */; };
+		E68B264F1CAC0401005DA8AF /* Entry+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = E68B264D1CAC0401005DA8AF /* Entry+CoreDataProperties.swift */; };
+		E68B26501CAC0401005DA8AF /* Entry+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = E68B264D1CAC0401005DA8AF /* Entry+CoreDataProperties.swift */; };
+		E68B26511CAC0401005DA8AF /* Entry+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = E68B264D1CAC0401005DA8AF /* Entry+CoreDataProperties.swift */; };
+		E68B26521CAC0401005DA8AF /* Entry.swift in Sources */ = {isa = PBXBuildFile; fileRef = E68B264E1CAC0401005DA8AF /* Entry.swift */; };
+		E68B26531CAC0401005DA8AF /* Entry.swift in Sources */ = {isa = PBXBuildFile; fileRef = E68B264E1CAC0401005DA8AF /* Entry.swift */; };
+		E68B26541CAC0401005DA8AF /* Entry.swift in Sources */ = {isa = PBXBuildFile; fileRef = E68B264E1CAC0401005DA8AF /* Entry.swift */; };
 		E68B26561CAC043E005DA8AF /* Stack.swift in Sources */ = {isa = PBXBuildFile; fileRef = E68B26551CAC043E005DA8AF /* Stack.swift */; };
 		E68B26571CAC043E005DA8AF /* Stack.swift in Sources */ = {isa = PBXBuildFile; fileRef = E68B26551CAC043E005DA8AF /* Stack.swift */; };
 		E68B26581CAC043E005DA8AF /* Stack.swift in Sources */ = {isa = PBXBuildFile; fileRef = E68B26551CAC043E005DA8AF /* Stack.swift */; };
@@ -65,8 +65,8 @@
 		E68B26331CABE887005DA8AF /* CoreDataJournalAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CoreDataJournalAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E68B26371CABE887005DA8AF /* CoreDataJournalAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataJournalAppUITests.swift; sourceTree = "<group>"; };
 		E68B26391CABE887005DA8AF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		E68B264D1CAC0401005DA8AF /* Entity+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Entity+CoreDataProperties.swift"; path = "../Entity+CoreDataProperties.swift"; sourceTree = "<group>"; };
-		E68B264E1CAC0401005DA8AF /* Entity.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Entity.swift; path = ../Entity.swift; sourceTree = "<group>"; };
+		E68B264D1CAC0401005DA8AF /* Entry+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Entry+CoreDataProperties.swift"; path = "../Entry+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		E68B264E1CAC0401005DA8AF /* Entry.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Entry.swift; path = ../Entry.swift; sourceTree = "<group>"; };
 		E68B26551CAC043E005DA8AF /* Stack.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Stack.swift; sourceTree = "<group>"; };
 		E68B26591CAC0954005DA8AF /* EntryDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = EntryDetailViewController.swift; path = ../EntryDetailViewController.swift; sourceTree = "<group>"; };
 		E68B265D1CAC0A2D005DA8AF /* EntryTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EntryTableViewController.swift; sourceTree = "<group>"; };
@@ -122,8 +122,8 @@
 			isa = PBXGroup;
 			children = (
 				E68B26551CAC043E005DA8AF /* Stack.swift */,
-				E68B264D1CAC0401005DA8AF /* Entity+CoreDataProperties.swift */,
-				E68B264E1CAC0401005DA8AF /* Entity.swift */,
+				E68B264D1CAC0401005DA8AF /* Entry+CoreDataProperties.swift */,
+				E68B264E1CAC0401005DA8AF /* Entry.swift */,
 				E68B26611CAC0B99005DA8AF /* EntryController.swift */,
 				E68B265D1CAC0A2D005DA8AF /* EntryTableViewController.swift */,
 				E68B26591CAC0954005DA8AF /* EntryDetailViewController.swift */,
@@ -289,10 +289,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E68B26521CAC0401005DA8AF /* Entity.swift in Sources */,
+				E68B26521CAC0401005DA8AF /* Entry.swift in Sources */,
 				E68B26151CABE886005DA8AF /* AppDelegate.swift in Sources */,
 				E68B265E1CAC0A2D005DA8AF /* EntryTableViewController.swift in Sources */,
-				E68B264F1CAC0401005DA8AF /* Entity+CoreDataProperties.swift in Sources */,
+				E68B264F1CAC0401005DA8AF /* Entry+CoreDataProperties.swift in Sources */,
 				E68B26561CAC043E005DA8AF /* Stack.swift in Sources */,
 				E68B265A1CAC0954005DA8AF /* EntryDetailViewController.swift in Sources */,
 				E68B26621CAC0B99005DA8AF /* EntryController.swift in Sources */,
@@ -305,12 +305,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				E68B26571CAC043E005DA8AF /* Stack.swift in Sources */,
-				E68B26501CAC0401005DA8AF /* Entity+CoreDataProperties.swift in Sources */,
+				E68B26501CAC0401005DA8AF /* Entry+CoreDataProperties.swift in Sources */,
 				E68B26631CAC0B99005DA8AF /* EntryController.swift in Sources */,
 				E68B262D1CABE887005DA8AF /* CoreDataJournalAppTests.swift in Sources */,
 				E68B265B1CAC0954005DA8AF /* EntryDetailViewController.swift in Sources */,
 				E68B265F1CAC0A2D005DA8AF /* EntryTableViewController.swift in Sources */,
-				E68B26531CAC0401005DA8AF /* Entity.swift in Sources */,
+				E68B26531CAC0401005DA8AF /* Entry.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -319,12 +319,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				E68B26581CAC043E005DA8AF /* Stack.swift in Sources */,
-				E68B26511CAC0401005DA8AF /* Entity+CoreDataProperties.swift in Sources */,
+				E68B26511CAC0401005DA8AF /* Entry+CoreDataProperties.swift in Sources */,
 				E68B26641CAC0B99005DA8AF /* EntryController.swift in Sources */,
 				E68B26381CABE887005DA8AF /* CoreDataJournalAppUITests.swift in Sources */,
 				E68B265C1CAC0954005DA8AF /* EntryDetailViewController.swift in Sources */,
 				E68B26601CAC0A2D005DA8AF /* EntryTableViewController.swift in Sources */,
-				E68B26541CAC0401005DA8AF /* Entity.swift in Sources */,
+				E68B26541CAC0401005DA8AF /* Entry.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

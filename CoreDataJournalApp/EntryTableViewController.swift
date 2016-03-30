@@ -9,15 +9,14 @@
 import UIKit
 
 class EntryTableViewController: UITableViewController {
-
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        
-    }
     
     override func viewWillAppear(animated: Bool) {
         super.viewWillAppear(true)
         tableView.reloadData()
+    }
+    
+    override func viewDidLoad() {
+        print("\(EntryController.sharedInstance.entries[3].text)")
     }
 
     // MARK: - Table view data source

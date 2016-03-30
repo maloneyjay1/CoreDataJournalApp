@@ -41,6 +41,7 @@ class EntryController {
     func saveToPersistentStorage() {
         do {
             try Stack.sharedStack.managedObjectContext.save()
+            print("success")
         } catch {
             print("Object not saved.")
         }
